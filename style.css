@@ -1,0 +1,33 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*header top, bottom,  right, left*/
+.htr {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hbl {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hbr {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sidebar {
+  background: dodgerblue;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.bold {
+  font-size: 2 em;
+}
