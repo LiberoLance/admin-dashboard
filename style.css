@@ -19,6 +19,10 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.main {
+  background: lightgrey;
+}
+
 /*main container*/
 .mc {
   display: grid;
@@ -32,6 +36,12 @@
 .cc {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
 }
 
 .announcements {
